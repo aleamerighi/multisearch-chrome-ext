@@ -1,32 +1,20 @@
 # PZL! Social MultiSearch
 
-One Paragraph of project description goes here
+Look up content simultaneously on Twitter, Facebook, Instagram and YouTube.
 
-## Getting Started
+## How to use
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+I developed this Google Chrome extension as a simple search engine to explore content on multiple social media. By using this tool, users can query up to four social networks at the same time and on a single click. You just type a search and select which services to filter from among Twitter, Facebook, Instagram and YouTube.
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
-
-```
-Give examples
-```
+There are no special prerequisites for using this tool, except you have to run it on a Google Chrome browser.
 
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+Go to the Chrome Webstore(https://chrome.google.com/webstore/category/extensions) and type 'PZL! Social MultiSearch' in the search bar. Then, click on 'Add to Chrome' to get the extension running in your browser (icon should appear in the upper right corner of the Google Chrome menu.
 
-Say what the step will be
-
-```
-Give the example
-```
-
-End with an example of getting some data out of the system or using it for a little demo
-
-## Running the tests
+## Possible implementations
 
 Explain how to run the automated tests for this system
 
@@ -51,13 +39,9 @@ Give an example
 * [p5.js](https://p5js.org/reference/) - JavaScript library
 * [codepen](https://codepen.io/) - Used to get example models and CSS
 
-## Contributing
-
-Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c63ec426) for details on our code of conduct, and the process for submitting pull requests to me.
-
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
+Current version 1.0 has just been released. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
