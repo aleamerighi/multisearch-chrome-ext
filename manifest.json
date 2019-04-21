@@ -10,7 +10,7 @@
   "128": "images/puzzle128.png"
   },
   "permissions": [
-      "tabs"
+      "activeTab"
     ],
   "content_scripts": [
     {
