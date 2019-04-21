@@ -8,11 +8,11 @@ I developed this Google Chrome extension as a simple search engine to explore co
 
 ### Prerequisites
 
-There are no special prerequisites for using this tool, except you have to run it on a Google Chrome browser.
+There are no special prerequisites for using this tool, except you have to run it on a Google Chrome web browser.
 
 ### Installing
 
-Go to the Chrome Webstore(https://chrome.google.com/webstore/category/extensions) and type 'PZL! Social MultiSearch' in the search bar. Then, click on 'Add to Chrome' to get the extension running in your browser (icon should appear in the upper right corner of the Google Chrome menu.
+Go to the [Chrome Webstore](https://chrome.google.com/webstore/category/extensions) and type 'PZL! Social MultiSearch' in the search bar. Then, click on 'Add to Chrome' to get the extension running in your browser (icon should appear in the upper-right corner of the Google Chrome menu, next to the address bar.
 
 ## Possible implementations
 
