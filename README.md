@@ -16,7 +16,7 @@ Go to the [Chrome Webstore](https://chrome.google.com/webstore/category/extensio
 
 ## Possible implementations
 
-The core of this extension is adding sources (urls) where users can search from. This is done by declaring an empty array as a global variable, and then populating it with social networks when their button is clicked. Among the many improvements that can be made, perhaps the most interesting one would be to add the option for users to add their own sources for new tabs. The following is a quick demonstration of how I added mine.
+The core of this extension is about adding sources (urls) for users to search from. This is done by declaring an empty array as a global variable, and then populating it with social networks as button is clicked. Among the many improvements that can be made, perhaps the most interesting one would be to include the option for users to add their own sources for new tabs. The following is a quick demonstration of how I added mine.
 
 ### Demo
 
@@ -54,14 +54,6 @@ var searchReddit = 'https://www.reddit.com/search?q=';
 ```
 
 Please note that the demo above is just for explaining purposes as the whole process used in this extension includes an empty array that's only populated with urls after specific buttons are clicked. Also, tabs are opened by looping through each element inside the array and concatenating it with inp.value().
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
 
 ## Built With
 
