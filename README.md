@@ -14,7 +14,7 @@ There are no special prerequisites for using this tool, except you have to run i
 
 Go to the [Chrome Webstore](https://chrome.google.com/webstore/category/extensions) and type 'PZL! Social MultiSearch' in the search bar. Then, click on 'Add to Chrome' to get the extension running in your browser (icon should appear in the upper-right corner of the Google Chrome menu, next to the address bar).
 
-## Possible implementations
+## Potential implementations
 
 The core of this extension is about adding sources (urls) for users to search from. This is done by declaring an empty array as a global variable, and then populating it with social networks as button is clicked. Among the many improvements that can be made, perhaps the most interesting one would be to include the option for users to add their own sources for new tabs. The following is a quick demonstration of how I added mine.
 
