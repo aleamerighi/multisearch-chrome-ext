@@ -4,7 +4,7 @@ A Google Chrome extension to look up content simultaneously on Twitter, Facebook
 
 ## How to use
 
-I developed this tool as a simple search engine to explore content on multiple social media. By using PZL!, users can query up to four social networks at the same time and on a single click. You just type a search and select which services to filter from among Twitter, Facebook, Instagram and YouTube.
+I developed this tool as a simple search engine to explore content on multiple social media. By using PZL! users can query up to four social networks at the same time and on a single click. You just type a search and select which services to filter from among Twitter, Facebook, Instagram and YouTube.
 
 ### Prerequisites
 
@@ -26,7 +26,7 @@ In [popup.js](https://github.com/aleamerighi/multisearch-chrome-ext/blob/master/
 var inp;
 ```
 
-Then, store your favorite source urls inside variables as well. Notice the only thing that's missing at the end of the string is the text input that we want eventually to be defined by users.
+Then, store your favorite source urls inside variables as well. Notice the only thing that's missing at the end of the string is the text input that we want to be given by the user.
 
 ```
 var searchTwitter = 'https://twitter.com/search?q=';
@@ -35,25 +35,27 @@ var searchInstagram = 'https://www.instagram.com/explore/tags/';
 var searchYouTube = 'https://www.youtube.com/results?q=';
 ```
 
-Input also needs to be initialized by targeting the correct element (mine has an ID of #textinput) in [popup.html](https://github.com/aleamerighi/multisearch-chrome-ext/blob/master/popup.html). We do this inside the p5.js setup function.
+Input also needs to be initialized by targeting the correct element (mine has an ID of #userinput) in [popup.html](https://github.com/aleamerighi/multisearch-chrome-ext/blob/master/popup.html). As I've used p5.js, we do this inside the setup function.
 
 ```
 inp = select('#userinput');
 ```
 
-Now we can concatenate them to perform a search querying the urls with the user's text input. For example, if we want to look up on Facebook, the process would be the following.
+Now, concatenating the source with the input will allow us to perform a search querying the urls that have been selected. I did so by using Chrome's extensions API method [chrome.tabs.create](https://developer.chrome.com/extensions/tabs#method-create). That being said, if we want to look up content on Facebook, url will be the following.
 
 ```
 searchFacebook + inp.value();
 ```
 
-So, if we would like to add Reddit.
+So, if we would like to add another source to search on Reddit.
 
 ```
 var searchReddit = 'https://www.reddit.com/search?q=';
+
+searchReddit + inp.value();
 ```
 
-Please note that the demo above is just for explaining purposes as the whole process used in this extension includes an empty array that's only populated with urls after specific buttons are clicked. Also, tabs are opened by looping through each element inside the array and concatenating it with inp.value().
+Please note that the one above is just for explaining purposes as the whole process used in this extension includes an empty array that's only populated with urls after specific buttons are clicked. Therefore, urls are not called individually but tabs are opened by looping through each element inside the array and concatenating it with inp.value().
 
 ## Built With
 
